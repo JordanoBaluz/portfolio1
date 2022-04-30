@@ -1,0 +1,32 @@
+.about {
+  padding-bottom: 48px;
+}
+.about-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-picture {
+  height: 420px;
+}
+.about-contact {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 720px) {
+  .about-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-info {
+    font-size: 26px;
+  }
+  .about-picture {
+    height: 280px;
+  }
+
+  .about-contact {
+    font-size: 20px;
+  }
+}
