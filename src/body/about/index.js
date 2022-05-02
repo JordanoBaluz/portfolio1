@@ -8,10 +8,11 @@ function About() {
     <div className="about">
       <div className="about-top">
         <div className="about-info">
-          Lorem ipsum dolor sit amet
-          <br />
-          <span className="about-info">Lorem ipsum dolor sit amet</span>
-          <br /> Lorem ipsum dolor sit amet
+          <h4>Olá, sou Jordano Baluz</h4>
+          <span className="about-info">
+            Sou programador web, atualmente estudando a stack MERN, sigla que
+            engloba MongoDB, Express, ReactJS e Node
+          </span>
         </div>
         <div className="about-photo">
           <img
@@ -20,7 +21,6 @@ function About() {
             alt="web-developer"
           />
         </div>
-        <div className="about-contact">contato</div>
       </div>
       <SocialMedia />
     </div>

@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  background-color: rgba(128, 128, 128, 0.466);
+  background-color: #4c5a97;
   justify-content: space-between;
   flex: 1;
   padding: 12px;
@@ -30,7 +30,7 @@
 .logo {
   display: flex;
   font-size: 36px;
-  color: #212263;
+  color: #ebeeff;
   font-weight: 800;
 }
 
