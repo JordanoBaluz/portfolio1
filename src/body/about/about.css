@@ -22,11 +22,6 @@
 .about-photo {
   width: 50%;
 }
-@media screen and (max-width: 960px) {
-  .about-picture {
-    height: 30rem;
-  }
-}
 
 @media screen and (max-width: 720px) {
   .about-top {
@@ -35,7 +30,8 @@
     align-items: center;
   }
   .about-info {
-    font-size: 26px;
+    font-size: 20px;
+    width: 80%;
   }
   .about-picture {
     height: 280px;

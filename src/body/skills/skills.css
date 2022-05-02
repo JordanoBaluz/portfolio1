@@ -22,6 +22,11 @@
   height: 128px;
 }
 
+.stack-div p {
+  padding-right: 15%;
+  text-align: justify;
+}
+
 @media only screen and (max-width: 720px) {
   .stack-div {
     flex-direction: column;
