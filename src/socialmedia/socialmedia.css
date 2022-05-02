@@ -1,0 +1,21 @@
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon-div {
+  padding: 6px;
+  cursor: pointer;
+  margin: 6px;
+}
+
+.social-icon-div > img {
+  height: 40px;
+}
+
+@media only screen and (max-width: 720px) {
+  .social-icon-div > img {
+    height: 28px;
+  }
+}

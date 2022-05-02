@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import webdeveloper from "../../assets/web-developer-removebg.png";
+import SocialMedia from "../../socialmedia";
 
 function About() {
   return (
@@ -21,6 +22,7 @@ function About() {
         </div>
         <div className="about-contact">contato</div>
       </div>
+      <SocialMedia />
     </div>
   );
 }
