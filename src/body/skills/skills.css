@@ -1,0 +1,47 @@
+.skills-div {
+}
+
+.skills-div > h3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px;
+  font-size: 26px;
+}
+
+.stack-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-grow: 1;
+}
+
+.stack-div img {
+  height: 128px;
+}
+
+@media only screen and (max-width: 720px) {
+  .stack-div {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .stack-div div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+  .stack-div img {
+    display: flex;
+    height: 64px;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .stack-div p {
+    padding-right: 15px;
+    text-align: justify;
+  }
+}
