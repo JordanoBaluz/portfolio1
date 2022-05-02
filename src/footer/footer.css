@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+}
+
+.footer-div > h6 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}

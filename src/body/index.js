@@ -11,17 +11,11 @@ function Body() {
       <section id="about">
         <About />
       </section>
-      <section id="project">
-        <Projects />
-      </section>
       <section id="skills">
         <Skills />
       </section>
-      <section id="work">
-        <Works />
-      </section>
-      <section id="contact">
-        <Contact />
+      <section id="project">
+        <Projects />
       </section>
     </div>
   );
