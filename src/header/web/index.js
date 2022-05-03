@@ -5,12 +5,6 @@ function Web() {
   return (
     <div className="web">
       <div className="web-option">
-        <a href="#project">
-          <i class="fi-rr-edit-alt option-icon"></i>
-          Projeto
-        </a>
-      </div>
-      <div className="web-option">
         <a href="#skills">
           <i class="fi-rr-laptop option-icon"></i>
           Habilidades
@@ -23,9 +17,9 @@ function Web() {
         </a>
       </div>
       <div className="web-option">
-        <a href="#contact">
+        <a href="#about">
           <i class="fi-rr-user option-icon"></i>
-          Contato
+          Sobre
         </a>
       </div>
     </div>

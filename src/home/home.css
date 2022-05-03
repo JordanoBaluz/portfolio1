@@ -10,6 +10,11 @@ html {
   background-color: #ebeeff;
 }
 
+.header-div {
+  position: sticky;
+  top: 0;
+}
+
 @media only screen and (max-width: 1024px) {
   .home {
     width: 90%;
